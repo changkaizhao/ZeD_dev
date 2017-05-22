@@ -20,7 +20,7 @@ find_package(OpenCV REQUIRED)
 #include_directories(${OpenCV_INCLUDE_DIRS})
 #endif(OpenCV_FOUND)
 
-set(${PROJECT_NAME}_SRC main.cpp)
+set(${PROJECT_NAME}_SRC ZED_dev/main.cpp)
 set(${PROJECT_NAME}_HDR )
 
 add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_SRC} ${${PROJECT_NAME}_HDR})
