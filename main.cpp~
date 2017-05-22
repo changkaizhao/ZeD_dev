@@ -37,7 +37,7 @@ while(true){
 	cv::namedWindow("win",CV_WINDOW_AUTOSIZE);
      //cv::moveWindow("win",100,100);
 	if(cv::waitKey(30) == 27){
-		printf("cam quit correctly!\n");	
+		printf("cam quit correctly!\n")	
 		cap.release();
 		break;
 	}

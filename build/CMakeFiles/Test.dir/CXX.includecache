@@ -9,6 +9,8 @@
 /home/robot/Development/ZeD_dev/main.cpp
 iostream
 -
+csignal
+-
 opencv2/opencv.hpp
 -
 
