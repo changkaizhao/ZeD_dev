@@ -33,7 +33,9 @@ while(true){
 	if(!cap.read(frame))
 		break;
 	cv::Mat src = cv::Mat(frame);
-	cv::imshow("win",src);
+    cv::Mat smallpic;
+    cv::resize(src, smallpic, cv::Size(src.cols/2,src.rows/2));
+	cv::imshow("win",smallpic);
 	cv::namedWindow("win",CV_WINDOW_AUTOSIZE);
      //cv::moveWindow("win",100,100);
 	if(cv::waitKey(30) == 27){
