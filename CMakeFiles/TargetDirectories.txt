@@ -1,3 +1,0 @@
-/home/roby/Development/cvProjects/zedCam/CMakeFiles/edit_cache.dir
-/home/roby/Development/cvProjects/zedCam/CMakeFiles/rebuild_cache.dir
-/home/roby/Development/cvProjects/zedCam/CMakeFiles/Test.dir

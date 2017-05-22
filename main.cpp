@@ -21,9 +21,11 @@ int main(int argc,char** argv){
 	cv::Mat frame;
 	cv::VideoCapture cap(0);
 if(!cap.isOpened()){
+	printf("\ncam not init correctly!\n");
 	return -1;
 }
 while(true){
+	
 	if(!cap.read(frame))
 		break;
 	cv::Mat src = cv::Mat(frame);
